@@ -1,0 +1,29 @@
+{
+  "name": "networkteam/container-ready",
+  "type": "package",
+  "description": "Utilities to run Flow and Neos applications in containers",
+  "license": [
+      "MIT"
+  ],
+  "require": {
+      "neos/flow-log": "^7.0 || ^8.0"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "~9.1"
+  },
+  "autoload": {
+      "psr-4": {
+          "Networkteam\\ContainerReady\\": "Classes"
+      }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "Networkteam\\ContainerReady\\Tests\\": "Tests"
+      }
+  },
+  "extra": {
+      "neos": {
+          "package-key": "Networkteam.ContainerReady"
+      }
+  }
+}
